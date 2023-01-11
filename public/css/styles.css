@@ -1,0 +1,110 @@
+:root {
+    --color-amarillo: #EAC926;
+    --color-azul: #03264C;
+    --color-celeste: #1259c3;
+    --color-grisOscuro: #666;
+    --color-grisClaro: #ebebeb;
+    --color-verde: #39b54a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: white;
+}
+
+p {
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 20px
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header {
+    background-color: var(--color-amarillo);
+    padding-bottom: 30px;
+}
+
+header img {
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+header div.form form input {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+header div.form button {
+    margin-left: 20px;
+}
+
+header h5 {
+    text-align: center;
+    margin: 30px;
+    font-size: 300;
+}
+
+header nav ul {
+    margin-bottom: 30px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+header div.burger-menu {
+    color: white;
+    border-radius: 5px;
+    background-color: var(--color-celeste);
+    padding: 10px;
+    width: 12vw;
+    margin: auto;
+    text-align: center;
+}
+
+main section {
+    background-color: white;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+}
+
+footer article i {
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+footer p#footer {
+    color: var(--color-grisOscuro);
+    margin: 30px 50px 10px 10px;
+}
