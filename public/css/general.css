@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    background-color: white;
+}
+
+p {
+    font-size: 12px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-left: 10px;
+    color: var(--color-grisOscuro);
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+
+}
+
+h6 {
+    color: var(--color-verde);
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: 300;
+    display: inline-block;
+}
+
+a {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

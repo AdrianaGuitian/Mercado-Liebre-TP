@@ -1,0 +1,109 @@
+.register{
+margin: 0px 20px;
+}
+
+.register-container{
+margin: 30px auto;
+max-width: 768px;
+}
+
+.register-container h1{
+    max-width: 768px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.form{
+    background-color: var(--ColorGrisClaro);
+    max-width: 768px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.form-box{
+padding: 5px;
+width: 100%;
+}
+
+.form-box label{
+   width: 100%;
+   font-weight: bold; 
+}
+
+.form-box input{
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+    width:100%;
+}
+
+.form-box-date{
+padding: 5px;
+font-weight: bold;
+width: 100%;
+}
+
+.form-box-date input{
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: rgb(100, 100, 100);
+}
+
+.form-box-radio{
+padding: 5px;
+width: 100%;
+}
+
+.form-box-radio label{
+    font-weight: bold;   
+}
+
+.form-box-checkbox{
+padding: 5px;
+width: 100%;
+}
+
+.form-box-checkbox label{
+    font-weight: bold;
+}
+
+.form-box-user{
+    padding: 5px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.form-box-user input{
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+    width:100%;
+}
+
+.form-box-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px 0;
+}
+
+.form-box-button button{
+    background-color: var(--color-celeste);
+    font-size: 16px;
+    display: block;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 45%;
+    color: white;
+}
+
+.estas-registrado{
+
+}
